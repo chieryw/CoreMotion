@@ -14,6 +14,13 @@
 		298A298E1A0B0143007D2D46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298A298D1A0B0143007D2D46 /* Images.xcassets */; };
 		298A29911A0B0143007D2D46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298A298F1A0B0143007D2D46 /* LaunchScreen.xib */; };
 		298A299D1A0B0143007D2D46 /* TestCoreMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 298A299C1A0B0143007D2D46 /* TestCoreMotionTests.m */; };
+		298A29AA1A0B033F007D2D46 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 298A29A91A0B033F007D2D46 /* SecondViewController.m */; };
+		298A29AC1A0B0463007D2D46 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 298A29AB1A0B0463007D2D46 /* 2.png */; };
+		298A29AE1A0B06FC007D2D46 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 298A29AD1A0B06FC007D2D46 /* Default-568h@2x.png */; };
+		298A29B01A0B0BE8007D2D46 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 298A29AF1A0B0BE8007D2D46 /* 3.png */; };
+		298A29B31A0B0E45007D2D46 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 298A29B21A0B0E45007D2D46 /* ThirdViewController.m */; };
+		298A29B51A0B0EFB007D2D46 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 298A29B41A0B0EFB007D2D46 /* 1.png */; };
+		298A29B81A0B1377007D2D46 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 298A29B71A0B1377007D2D46 /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,16 @@
 		298A29961A0B0143007D2D46 /* TestCoreMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCoreMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		298A299B1A0B0143007D2D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		298A299C1A0B0143007D2D46 /* TestCoreMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCoreMotionTests.m; sourceTree = "<group>"; };
+		298A29A81A0B033F007D2D46 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		298A29A91A0B033F007D2D46 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		298A29AB1A0B0463007D2D46 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		298A29AD1A0B06FC007D2D46 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		298A29AF1A0B0BE8007D2D46 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		298A29B11A0B0E45007D2D46 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		298A29B21A0B0E45007D2D46 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		298A29B41A0B0EFB007D2D46 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		298A29B61A0B1377007D2D46 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		298A29B71A0B1377007D2D46 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +98,10 @@
 		298A297F1A0B0143007D2D46 /* TestCoreMotion */ = {
 			isa = PBXGroup;
 			children = (
+				298A29B41A0B0EFB007D2D46 /* 1.png */,
+				298A29AD1A0B06FC007D2D46 /* Default-568h@2x.png */,
+				298A29AB1A0B0463007D2D46 /* 2.png */,
+				298A29AF1A0B0BE8007D2D46 /* 3.png */,
 				298A29841A0B0143007D2D46 /* AppDelegate.h */,
 				298A29851A0B0143007D2D46 /* AppDelegate.m */,
 				298A29871A0B0143007D2D46 /* ViewController.h */,
@@ -89,6 +110,12 @@
 				298A298D1A0B0143007D2D46 /* Images.xcassets */,
 				298A298F1A0B0143007D2D46 /* LaunchScreen.xib */,
 				298A29801A0B0143007D2D46 /* Supporting Files */,
+				298A29A81A0B033F007D2D46 /* SecondViewController.h */,
+				298A29A91A0B033F007D2D46 /* SecondViewController.m */,
+				298A29B11A0B0E45007D2D46 /* ThirdViewController.h */,
+				298A29B21A0B0E45007D2D46 /* ThirdViewController.m */,
+				298A29B61A0B1377007D2D46 /* FourViewController.h */,
+				298A29B71A0B1377007D2D46 /* FourViewController.m */,
 			);
 			path = TestCoreMotion;
 			sourceTree = "<group>";
@@ -200,8 +227,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				298A298C1A0B0143007D2D46 /* Main.storyboard in Resources */,
+				298A29AC1A0B0463007D2D46 /* 2.png in Resources */,
 				298A29911A0B0143007D2D46 /* LaunchScreen.xib in Resources */,
+				298A29B01A0B0BE8007D2D46 /* 3.png in Resources */,
+				298A29AE1A0B06FC007D2D46 /* Default-568h@2x.png in Resources */,
 				298A298E1A0B0143007D2D46 /* Images.xcassets in Resources */,
+				298A29B51A0B0EFB007D2D46 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				298A29B81A0B1377007D2D46 /* FourViewController.m in Sources */,
+				298A29AA1A0B033F007D2D46 /* SecondViewController.m in Sources */,
+				298A29B31A0B0E45007D2D46 /* ThirdViewController.m in Sources */,
 				298A29891A0B0143007D2D46 /* ViewController.m in Sources */,
 				298A29861A0B0143007D2D46 /* AppDelegate.m in Sources */,
 				298A29831A0B0143007D2D46 /* main.m in Sources */,
@@ -344,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestCoreMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestCoreMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

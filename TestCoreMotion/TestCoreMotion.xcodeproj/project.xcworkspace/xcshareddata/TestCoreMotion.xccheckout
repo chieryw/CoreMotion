@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F3AE6D5E-CB37-49E7-A0BC-D692A2A99C8C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestCoreMotion</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3D22571193C4EFFD7A0E82382A31A0BB5C7F56DE</key>
+		<string>github.com:chieryw/CoreMotion.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestCoreMotion/TestCoreMotion.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3D22571193C4EFFD7A0E82382A31A0BB5C7F56DE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:chieryw/CoreMotion.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3D22571193C4EFFD7A0E82382A31A0BB5C7F56DE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3D22571193C4EFFD7A0E82382A31A0BB5C7F56DE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoreMotion</string>
+		</dict>
+	</array>
+</dict>
+</plist>

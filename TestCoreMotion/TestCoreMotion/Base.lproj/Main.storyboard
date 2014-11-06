@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ROF-QL-NoU">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--旋转-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +16,87 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="2.png" translatesAutoresizingMaskIntoConstraints="NO" id="lmW-Ut-ByG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="lmW-Ut-ByG" secondAttribute="centerX" id="l4c-fn-i9O"/>
+                            <constraint firstAttribute="centerY" secondItem="lmW-Ut-ByG" secondAttribute="centerY" id="qlb-UX-tpD"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="旋转" id="y1o-x6-QtH">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="OME-hQ-Lzi">
+                            <connections>
+                                <segue destination="dxP-r7-7Ge" kind="push" id="tc4-vB-q5N"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="lmW-Ut-ByG" id="8S9-BC-5eX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1232" y="384"/>
+        </scene>
+        <!--加速度-->
+        <scene sceneID="iWM-nc-kS6">
+            <objects>
+                <viewController id="dxP-r7-7Ge" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4i4-LW-q7w"/>
+                        <viewControllerLayoutGuide type="bottom" id="emH-eI-KaY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G8q-hV-LoI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pli-wt-UwI">
+                                <rect key="frame" x="0.0" y="-8" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="Pli-wt-UwI" secondAttribute="centerY" id="GZN-RK-KGE"/>
+                            <constraint firstAttribute="centerX" secondItem="Pli-wt-UwI" secondAttribute="centerX" id="UaA-aH-u4k"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="加速度" id="h34-Mz-tb6">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="6Tu-v9-L63">
+                            <connections>
+                                <action selector="click:" destination="dxP-r7-7Ge" id="TQp-DA-NAL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RF4-uf-C8d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1979" y="324"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vp6-JG-Doy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ROF-QL-NoU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TyC-hc-xZU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="oi4-Nz-hrk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xlk-yu-Wk0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="1050"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="2.png" width="607" height="914"/>
+        <image name="3.png" width="450" height="750"/>
+    </resources>
 </document>
